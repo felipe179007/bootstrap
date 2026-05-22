@@ -10,8 +10,151 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="navbar">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="https://es.wikipedia.org/wiki/Selecci%C3%B3n_de_f%C3%BAtbol_de_Francia"
+                >Francia</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://es.wikipedia.org/wiki/Selecci%C3%B3n_de_f%C3%BAtbol_de_Espa%C3%B1a"
+                >España</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://es.wikipedia.org/wiki/Selecci%C3%B3n_de_f%C3%BAtbol_de_Portugal"
+                >Portugal</a
+              >
+            </li>
+          </ul>
+     </div>
+    </div>
+    </nav>
 
+    </header>
+    <h1 class="main-title">Selecciones con chances de ganar el mundial 2026</h1>
+    <div class="card-container1">
+        <div class="card-body">
+          <h5 class="card-title">Francia</h5>
+          <p class="card-text">
+            Jugadores principales: Kylian Mbappé, Michael Olise, Antoine Griezmann, Desire Doué
+          </p>
+          <img src="francia.jpg" class="card-img-top" alt="..." />
+          <a href="https://es.wikipedia.org/wiki/Selecci%C3%B3n_de_f%C3%BAtbol_de_Francia" class="btn btn-primary">Sitio web seleccion francesa</a>
+        </div>
+
+        <div class="card-body">
+            <h5 class="card-title">Portugal</h5>
+            <p class="card-text">
+                Jugadores principales: Ronaldo, Vitinha, Joao Neves, Bernardo Silva
+            </p>
+            <img src="portugal.jpg" class="card-img-top" alt="..." />
+            <a href="https://es.wikipedia.org/wiki/Selecci%C3%B3n_de_f%C3%BAtbol_de_Portugal" class="btn btn-primary">Sitio web seleccion portugal</a>
+        </div>
+
+        <div class="card-body">
+          <h5 class="card-title">España</h5>
+          <p class="card-text">
+            Jugadores principales: Lamine Yamal, Ferrán Torres, Dani olmo
+          </p>
+          <img src="españa.jpg" class="card-img-top" alt="..." />
+          <a href="https://es.wikipedia.org/wiki/Selecci%C3%B3n_de_f%C3%BAtbol_de_Espa%C3%B1a" class="btn btn-primary">Sitio web seleccion española</a>
+        </div>
+    </div>
+    <div class="card-container2">  
+        <div class="card-body">
+          <h5 class="card-title">Argentina</h5>
+          <p class="card-text">
+            Jugadores principales: Lionel Messi, Julián Álvarez, Alexis Mac Allister
+          </p>
+          <img src="argentina.jpg" class="card-img-top" alt="..." />
+          <a href="https://es.wikipedia.org/wiki/Selecci%C3%B3n_de_f%C3%BAtbol_de_Argentina" class="btn btn-primary">Sitio web seleccion argentina</a>
+        </div>
+
+        <div class="card-body">
+          <h5 class="card-title">Inglaterra</h5>
+          <p class="card-text">
+            Jugadores principales: Bukayo Saka, Harry Kane, Reece James
+          </p>
+          <img src="inglaterra.jpg" class="card-img-top" alt="..." />
+          <a href="https://es.wikipedia.org/wiki/Selecci%C3%B3n_de_f%C3%BAtbol_de_Inglaterra" class="btn btn-primary">Sitio web seleccion Inglesa</a>
+        </div>
+    </div>
+    </div>
+
+    <div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="mabppe jugando.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="messi jugando.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="olise jugando.jpeg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+    
+  
+  <form class="formulario">
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">Inserta tu email para recibir novedades de la copa del mundo.</div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Nombre</label>
+      <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Recibir noticias</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
